@@ -37,6 +37,7 @@ class InformationOrganizer():
                                             'NULL', #'JIS水準', 
                                             'NULL', #'漢字について', 
                                             'NULL', #'補足'
+                                            'NULL', #'URL'
                                         ]
         self.information_lists_builder()
     
@@ -80,6 +81,8 @@ class InformationOrganizer():
                 self.general_information_list[7] = content
             else:
                 self.general_information_list[7] = content[3:]
+        elif subject == 'URL':
+            self.general_information_list[8] = content
         elif subject == '名乗り読み':
             self.name_readings_list.append([self.kanji, content])
         elif subject == '漢字構成':

@@ -6,7 +6,7 @@ class FileManager():
 
     firstrow_dictionary = {
                             'data/kanjireadings.csv' : ['漢字','音訓','読み', '送り仮名', '学年', '表内読み'],
-                            'data/kanjigeneralinfo.csv' : ['漢字', '画数', '成り立ち', '学年', '漢字検定', 'JIS水準', '漢字について', '補足'],
+                            'data/kanjigeneralinfo.csv' : ['漢字', '画数', '成り立ち', '学年', '漢字検定', 'JIS水準', '漢字について', '補足', 'URL'],
                             'data/kanjimeanings.csv' : ['漢字', '意味', 'その他'],
                             'data/kanjivariant.csv' : ['漢字', '異体字'],
                             'data/kanjikousei.csv' : ['漢字', '漢字構成'],

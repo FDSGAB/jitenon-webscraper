@@ -72,6 +72,7 @@ class KanjiInformationFetcher():
         self.fetch_kanji_kousei_information()
         self.fetch_kanji_namereadings_information()
         self.fetch_kanji_footnote_information()
+        self.information_list.append(['URL',self.url])
         #self.fetch_kanji_nandoku_information()
         #self.fetch_kanji_yoji_information()
         #self.fetch_kanji_joyohuhyo_information()

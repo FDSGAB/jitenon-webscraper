@@ -29,7 +29,7 @@ class KanjiLinksWriter():
             if self.counter == self.entries: break
 
     def write_links_in_txt(self):
-        links_file = open("links.txt", "w")
+        links_file = open("bin/links.txt", "w")
         links_file.write("\n".join(self.link_list))
         links_file.close()
 
