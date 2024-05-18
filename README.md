@@ -1,6 +1,9 @@
 # jitenon-webscraper
  Web scraper of kanji information from https://kanji.jitenon.jp
 
+ ## About
+ This project aims to create a database of japanese kanji characters to be utilized in applications, personal use and so on.
+
 
 
 
@@ -26,3 +29,14 @@ https://kanji.jitenon.jp/kanjid/1501.html -> https://kanji.jitenon.jp/kanjid/200
 . on
 https://kanji.jitenon.jp/kanjiy/12001.html -> https://kanji.jitenon.jp/kanjib/XXXXX.html 12001 - XXXXX (letter 'y' after "kanji")
  ```
+
+## Documentation of the Libraries Utilized
+ - [Requests](https://requests.readthedocs.io/en/latest/)
+ - [Beautiful Soup](https://beautiful-soup-4.readthedocs.io/en/latest/)
+ - [Numpy](https://numpy.org/doc/1.26/user/basics.html)
+ - [Pandas](https://pandas.pydata.org/docs/user_guide/index.html)
+
+## Reference Links
+ - [Kanji Jiten Online](https://kanji.jitenon.jp)
+ - [Kanji (Japanese Characters)](https://en.wikipedia.org/wiki/Kanji)
+ - [Web Scraping](https://en.wikipedia.org/wiki/Web_scraping)

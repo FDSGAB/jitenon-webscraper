@@ -64,6 +64,7 @@ class KanjiInformationFetcher():
 
 
     def fetch_all_information(self):
+        #There are kanji which have no reading. Written as 読み - なし
         self.fetch_kanji_basic_information()
         self.fetch_kanji_about_information()
         self.fetch_kanji_code_information()
