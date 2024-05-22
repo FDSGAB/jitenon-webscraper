@@ -78,4 +78,9 @@ class EntryController():
         if shubetsu_control[0] == 1:
             self.delete_previous_written_entries(self.controls_list)
             return True
+        name_control = self.write_kanji_info_list(data.kanji, 'data/namae.csv', data.names_list)
+        self.controls_list.append(['data/namae.csv', name_control[1]])
+        if name_control[0] == 1:
+            self.delete_previous_written_entries(self.controls_list)
+            return True
         return False

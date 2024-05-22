@@ -28,6 +28,7 @@ class InformationOrganizer():
         self.variant_forms_list =list()
         self.bunrui_list = list()
         self.shubetsu_list = list()
+        self.names_list = list()
         self.general_information_list = [
                                             'NULL', #'漢字',                                                                
                                             'NULL', #'画数',                                
@@ -105,6 +106,9 @@ class InformationOrganizer():
             content = list(content)
             for entry in content:
                 self.variant_forms_list.append([self.kanji, entry])
+        elif subject == '名前':
+            name_contents = content.split("◦")
+            self.names_list.append([self.kanji, name_contents[1], name_contents[0], name_contents[2]])
         else: print("SUBJECT " + subject + " NOT ACCOUNTED FOR!!!!!!!!!!")
 
 

@@ -17,7 +17,7 @@ def main():
         needs_reprocessing = False
         while setup.counter <= len(setup.full_links_list):
             run_start = datetime.datetime.now()
-            if setup.counter%10 == 0 or setup.counter == starting_counter:
+            if setup.counter % 10 == 0 or setup.counter == starting_counter:
                 print(bcolors.OKGREEN + "Custom run: " + str(setup.counter - starting_counter + 1) + "/" + str(len(setup.links_list)) + " " + str(round(100 * (setup.counter - starting_counter+1)/(len(setup.links_list)), 2)) + "%, URL: " + link + bcolors.ENDC)
                 print(bcolors.OKGREEN + "Until Completion: " + str(setup.counter) + "/" + str(len(setup.full_links_list)) + " " + str(round(100 * setup.counter / len(setup.full_links_list), 2)) + "%, URL: " + link + bcolors.ENDC)
             info_list = KanjiInformationFetcher(url = link).fetch_result()
@@ -26,7 +26,7 @@ def main():
             Controller = EntryController(data)
             needs_reprocessing = Controller.write_all_infos()
             time_list.append(datetime.datetime.now() - run_start)
-            if setup.counter%10 == 0 or setup.counter == starting_counter:
+            if setup.counter % 10 == 0 or setup.counter == starting_counter:
                 print("Estimated time for conclusion: ", str(np.mean(time_list) * (len(setup.links_list) + starting_counter - setup.counter + 1)))
             if needs_reprocessing:
                 needs_reprocessing = False 

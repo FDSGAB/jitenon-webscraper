@@ -26,11 +26,10 @@ class NameInformationFetcher():
           name = row.find("td", {'class':'name'}).get_text()
           yomi = row.find("td", {'class':'yomi'}).get_text()
           #print("gender: " + gender + " name: " + name + " yomi: " + yomi)
-          self.information_list.append(['名前', gender, name, yomi])
+          self.information_list.append(['名前', gender + '◦' + name + '◦' + yomi])
 
     def next_page(self, content : BeautifulSoup):
       self.url = content.find("div", {'class':'pagination2'}).find("div", {'class':'next'}).find('a')['href']
-      print(self.url)
       self.get_page_info()
 
     def fetch_all_information(self):
@@ -40,6 +39,9 @@ class NameInformationFetcher():
         if self.soup.find("div", {'class':'pagination2'}).find("div", {'class':'next'}).find('a') == None:
           break
         self.next_page(content = self.soup)
-      print(len(self.information_list))
+      """ print(len(self.information_list))
       for element in self.information_list:
-        print(element)
+        print(element) """
+
+    def fetch_result(self) -> list:
+        return self.information_list

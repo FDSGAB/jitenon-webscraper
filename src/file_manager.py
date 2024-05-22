@@ -16,6 +16,7 @@ class FileManager():
                             'data/kanjibushu.csv' : ['漢字', '部首', '部首の読み方'],
                             'data/kanjibunrui.csv' :['漢字', '分類'],
                             'data/kanjishubetsu.csv' :['漢字', '種別'],
+                            'data/namae.csv' :['漢字', '名前', '性別', '読み方']
                         }
 
     def create_csv_file(self, file_name : str, firstrow : list):

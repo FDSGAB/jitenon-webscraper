@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+from src.name_information_fetcher import NameInformationFetcher
 
 
 class KanjiInformationFetcher():
@@ -73,7 +74,9 @@ class KanjiInformationFetcher():
         self.fetch_kanji_kousei_information()
         self.fetch_kanji_namereadings_information()
         self.fetch_kanji_footnote_information()
+        self.fetch_kanji_names_information()
         self.information_list.append(['URL',self.url])
+        
         #self.fetch_kanji_nandoku_information()
         #self.fetch_kanji_yoji_information()
         #self.fetch_kanji_joyohuhyo_information()
@@ -81,7 +84,7 @@ class KanjiInformationFetcher():
         #self.fetch_kanji_include_information()
         #self.fetch_kanji_kotozawa_information()
         #self.fetch_kanji_myouji_information()
-        #self.fetch_kanji_names_information()
+        
         #self.fetch_kanji_word_information()
 
     def fetch_kanji_basic_information(self):
@@ -104,30 +107,25 @@ class KanjiInformationFetcher():
         try:
             about_content = self.soup.find('body').find("div", {'class':'search_data'}).find("div", {'class':'kanji_about'}) 
             self.fetch_simple_string_from_content(about_content, subject = '漢字について')
-        except AttributeError:
-            self.information_list.append(['漢字について', 'NULL'])
+        except AttributeError: self.information_list.append(['漢字について', 'NULL'])
 
     def fetch_kanji_variant_information(self):
         try:
             variant_kanji_content = self.soup.find('body').find("div", {'class':'search_data'}).find("div", {'class':'data_cont it_wrap2'})
             self.fetch_simple_string_from_content(variant_kanji_content, subject = '異体字')
-        except AttributeError:
-            pass
+        except AttributeError: pass
 
     def fetch_kanji_kousei_information(self):
         try:
             kanji_kousei_content = self.soup.find('body').find("div", {'class':'search_data'}).find("h2", {'id':'m_kousei'}).find_previous()
             self.fetch_information_from_list(kanji_kousei_content, subject = '漢字構成')
-        except AttributeError:
-            pass
-
+        except AttributeError: pass
 
     def fetch_kanji_namereadings_information(self):
         try:
             kanji_namereadings_content = self.soup.find('body').find("div", {'class':'search_data'}).find("h2", {'id':'m_name'}).find_previous() 
             self.fetch_information_from_list(kanji_namereadings_content, subject = '名乗り読み')
-        except AttributeError:
-            pass
+        except AttributeError: pass
 
     def fetch_kanji_nandoku_information(self):
         kanji_nandoku_content = self.soup.find('body').find("div", {'class':'search_data'}).find("h2", {'id':'m_nandoku'}).find_previous() 
@@ -138,8 +136,12 @@ class KanjiInformationFetcher():
         self.fetch_information_from_list(kanji_joyohuhyo_content, subject = '常用漢字表付表の語')
     
     def fetch_kanji_names_information(self):
-        kanji_names_content = self.soup.find('body').find("div", {'class':'search_data'}).find("h2", {'id':'m_name_site'}).find_previous() 
-        self.fetch_information_from_list(kanji_names_content, subject = '名前')
+        try:
+            names_url = self.soup.find('body').find("div", {'class':'search_data'}).find("h2", {'id':'m_name_site'}).find_previous().find("a", {'class':'outside_link'})['href']
+            name_informations_list = NameInformationFetcher(url = names_url).fetch_result() 
+            for name_entry in name_informations_list:
+                self.information_list.append(name_entry)
+        except AttributeError: pass
 
     def fetch_kanji_include_information(self):
         kanji_include_content = self.soup.find('body').find("div", {'class':'search_data'}).find("h2", {'id':'m_include'}).find_previous() 
@@ -169,8 +171,7 @@ class KanjiInformationFetcher():
         try:
             footnote_content = self.soup.find('body').find("div", {'class':'search_data'}).find("div", {'class':'hosoku_display'}).find('h3').find_previous()
             self.fetch_simple_string_from_content(footnote_content, subject = '補足')
-        except AttributeError:
-            self.information_list.append(['補足', 'NULL'])
+        except AttributeError: self.information_list.append(['補足', 'NULL'])
 
 if __name__ == '__main__':
     test_url = "https://kanji.jitenon.jp/kanji/001.html"
