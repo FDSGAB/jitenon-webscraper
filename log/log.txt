@@ -155,3 +155,315 @@ Error in 肑 found in: data/kanjigeneralinfo.csv
 Entries in csv: 0
 Entries found: 1
 ERROR IN Run number: 17128, URL: https://kanji.jitenon.jp/kanjiy/17128.html
+Error in 蟘 found in: data/kanjidictionarynumbers.csv
+Entries in csv: 1
+Entries found: 5
+ERROR IN Run number: 17504, URL: https://kanji.jitenon.jp/kanjiy/17504.html
+Error in 閐 found in: data/kanjimeanings.csv
+Entries in csv: 0
+Entries found: 1
+ERROR IN Run number: 18166, URL: https://kanji.jitenon.jp/kanjiy/18166.html
+Error in 鷑 found in: data/kanjireadings.csv
+Entries in csv: 1
+Entries found: 3
+ERROR IN Run number: 18536, URL: https://kanji.jitenon.jp/kanjiy/18536.html
+Error in 㔀 found in: data/kanjireadings.csv
+Entries in csv: 0
+Entries found: 1
+ERROR IN Run number: 18802, URL: https://kanji.jitenon.jp/kanjiy/18802.html
+Error in 㯛 found in: data/kanjicodes.csv
+Entries in csv: 4
+Entries found: 6
+ERROR IN Run number: 20128, URL: https://kanji.jitenon.jp/kanjiy/20128.html
+Error in 㴸 found in: data/kanjimeanings.csv
+Entries in csv: 0
+Entries found: 3
+ERROR IN Run number: 20395, URL: https://kanji.jitenon.jp/kanjiy/20395.html
+Error in 㴾 found in: data/kanjimeanings.csv
+Entries in csv: 0
+Entries found: 1
+ERROR IN Run number: 20398, URL: https://kanji.jitenon.jp/kanjiy/20398.html
+Error in 㹿 found in: data/kanjigeneralinfo.csv
+Entries in csv: 0
+Entries found: 1
+ERROR IN Run number: 20656, URL: https://kanji.jitenon.jp/kanjiy/20656.html
+Error in 䂀 found in: data/kanjigeneralinfo.csv
+Entries in csv: 2
+Entries found: 1
+ERROR IN Run number: 21054, URL: https://kanji.jitenon.jp/kanjiy/21054.html
+Error in 䂀 found in: data/kanjireadings.csv
+Entries in csv: 2
+Entries found: 1
+ERROR IN Run number: 21054, URL: https://kanji.jitenon.jp/kanjiy/21054.html
+Error in 䂀 found in: data/kanjimeanings.csv
+Entries in csv: 2
+Entries found: 1
+ERROR IN Run number: 21054, URL: https://kanji.jitenon.jp/kanjiy/21054.html
+Error in 䂀 found in: data/kanjidictionarynumbers.csv
+Entries in csv: 10
+Entries found: 5
+ERROR IN Run number: 21054, URL: https://kanji.jitenon.jp/kanjiy/21054.html
+Error in 䂀 found in: data/kanjicodes.csv
+Entries in csv: 12
+Entries found: 6
+ERROR IN Run number: 21054, URL: https://kanji.jitenon.jp/kanjiy/21054.html
+Error in 䂀 found in: data/kanjibushu.csv
+Entries in csv: 2
+Entries found: 1
+ERROR IN Run number: 21054, URL: https://kanji.jitenon.jp/kanjiy/21054.html
+Error in 䂀 found in: data/kanjikousei.csv
+Entries in csv: 10
+Entries found: 5
+ERROR IN Run number: 21054, URL: https://kanji.jitenon.jp/kanjiy/21054.html
+Error in 䍋 found in: data/kanjigeneralinfo.csv
+Entries in csv: 0
+Entries found: 1
+ERROR IN Run number: 21650, URL: https://kanji.jitenon.jp/kanjiy/21650.html
+Error in 䣀 found in: data/kanjireadings.csv
+Entries in csv: 0
+Entries found: 2
+ERROR IN Run number: 22745, URL: https://kanji.jitenon.jp/kanjiy/22745.html
+Error in 䶳 found in: data/kanjibushu.csv
+Entries in csv: 0
+Entries found: 1
+ERROR IN Run number: 23726, URL: https://kanji.jitenon.jp/kanjiy/23726.html
+Error in 䴕 found in: data/kanjicodes.csv
+Entries in csv: 3
+Entries found: 5
+ERROR IN Run number: 23791, URL: https://kanji.jitenon.jp/kanjiy/23791.html
+Error in 䓵 found in: data/kanjikousei.csv
+Entries in csv: 2
+Entries found: 3
+ERROR IN Run number: 24305, URL: https://kanji.jitenon.jp/kanjiy/24305.html
+Error in ⺈ found in: data/kanjigeneralinfo.csv
+Entries in csv: 0
+Entries found: 1
+ERROR IN Run number: 24421, URL: https://kanji.jitenon.jp/kanjiy/24421.html
+Error in 喽 found in: data/kanjidictionarynumbers.csv
+Entries in csv: 3
+Entries found: 5
+ERROR IN Run number: 24919, URL: https://kanji.jitenon.jp/kanjiy/24919.html
+Error in 殚 found in: data/kanjikousei.csv
+Entries in csv: 1
+Entries found: 3
+ERROR IN Run number: 25443, URL: https://kanji.jitenon.jp/kanjiy/25443.html
+Error in 继 found in: data/kanjivariant.csv
+Entries in csv: 2
+Entries found: 3
+ERROR IN Run number: 26128, URL: https://kanji.jitenon.jp/kanjiy/26128.html
+Error in 𣣷 found in: data/kanjidictionarynumbers.csv
+Entries in csv: 3
+Entries found: 5
+ERROR IN Run number: 28109, URL: https://kanji.jitenon.jp/kanjiy/28109.html
+Error in 𥁚 found in: data/kanjidictionarynumbers.csv
+Entries in csv: 1
+Entries found: 5
+ERROR IN Run number: 28180, URL: https://kanji.jitenon.jp/kanjiy/28180.html
+Error in 一 found in: data/kanjigeneralinfo.csv
+Entries in csv: 2
+Entries found: 1
+ERROR IN Run number: 1, URL: https://kanji.jitenon.jp/kanji/001.html
+Error in 一 found in: data/kanjigeneralinfo.csv
+Entries in csv: 2
+Entries found: 1
+ERROR IN Run number: 1, URL: https://kanji.jitenon.jp/kanji/001.html
+Error in 一 found in: data/kanjigeneralinfo.csv
+Entries in csv: 2
+Entries found: 1
+ERROR IN Run number: 1, URL: https://kanji.jitenon.jp/kanji/001.html
+Error in 𡌳 found in: data/kanjireadings.csv
+Entries in csv: 8
+Entries found: 4
+ERROR IN Run number: 28235, URL: https://kanji.jitenon.jp/kanjiy/28235.html
+Error in 𡌳 found in: data/kanjireadings.csv
+Entries in csv: 8
+Entries found: 4
+ERROR IN Run number: 28235, URL: https://kanji.jitenon.jp/kanjiy/28235.html
+Error in 𡌳 found in: data/kanjimeanings.csv
+Entries in csv: 6
+Entries found: 3
+ERROR IN Run number: 28235, URL: https://kanji.jitenon.jp/kanjiy/28235.html
+Error in 𡌳 found in: data/kanjimeanings.csv
+Entries in csv: 6
+Entries found: 3
+ERROR IN Run number: 28235, URL: https://kanji.jitenon.jp/kanjiy/28235.html
+Error in 𡌳 found in: data/kanjidictionarynumbers.csv
+Entries in csv: 10
+Entries found: 5
+ERROR IN Run number: 28235, URL: https://kanji.jitenon.jp/kanjiy/28235.html
+Error in 𡌳 found in: data/kanjidictionarynumbers.csv
+Entries in csv: 10
+Entries found: 5
+ERROR IN Run number: 28235, URL: https://kanji.jitenon.jp/kanjiy/28235.html
+Error in 𡌳 found in: data/kanjicodes.csv
+Entries in csv: 12
+Entries found: 6
+ERROR IN Run number: 28235, URL: https://kanji.jitenon.jp/kanjiy/28235.html
+Error in 𡌳 found in: data/kanjicodes.csv
+Entries in csv: 12
+Entries found: 6
+ERROR IN Run number: 28235, URL: https://kanji.jitenon.jp/kanjiy/28235.html
+Error in 𡌳 found in: data/kanjibushu.csv
+Entries in csv: 2
+Entries found: 1
+ERROR IN Run number: 28235, URL: https://kanji.jitenon.jp/kanjiy/28235.html
+Error in 𡌳 found in: data/kanjibushu.csv
+Entries in csv: 2
+Entries found: 1
+ERROR IN Run number: 28235, URL: https://kanji.jitenon.jp/kanjiy/28235.html
+Error in 𡌳 found in: data/kanjivariant.csv
+Entries in csv: 8
+Entries found: 4
+ERROR IN Run number: 28235, URL: https://kanji.jitenon.jp/kanjiy/28235.html
+Error in 𡌳 found in: data/kanjivariant.csv
+Entries in csv: 8
+Entries found: 4
+ERROR IN Run number: 28235, URL: https://kanji.jitenon.jp/kanjiy/28235.html
+Error in 𡌳 found in: data/kanjikousei.csv
+Entries in csv: 6
+Entries found: 3
+ERROR IN Run number: 28235, URL: https://kanji.jitenon.jp/kanjiy/28235.html
+Error in 𡌳 found in: data/kanjikousei.csv
+Entries in csv: 6
+Entries found: 3
+ERROR IN Run number: 28235, URL: https://kanji.jitenon.jp/kanjiy/28235.html
+Error in 𠂛 found in: data/kanjigeneralinfo.csv
+Entries in csv: 2
+Entries found: 1
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjigeneralinfo.csv
+Entries in csv: 2
+Entries found: 1
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjireadings.csv
+Entries in csv: 6
+Entries found: 3
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjireadings.csv
+Entries in csv: 6
+Entries found: 3
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjireadings.csv
+Entries in csv: 6
+Entries found: 3
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjireadings.csv
+Entries in csv: 6
+Entries found: 3
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjireadings.csv
+Entries in csv: 4
+Entries found: 3
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjimeanings.csv
+Entries in csv: 2
+Entries found: 1
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjimeanings.csv
+Entries in csv: 2
+Entries found: 1
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjimeanings.csv
+Entries in csv: 2
+Entries found: 1
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjimeanings.csv
+Entries in csv: 2
+Entries found: 1
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjimeanings.csv
+Entries in csv: 2
+Entries found: 1
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjimeanings.csv
+Entries in csv: 2
+Entries found: 1
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjimeanings.csv
+Entries in csv: 2
+Entries found: 1
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjimeanings.csv
+Entries in csv: 2
+Entries found: 1
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjidictionarynumbers.csv
+Entries in csv: 10
+Entries found: 5
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjidictionarynumbers.csv
+Entries in csv: 10
+Entries found: 5
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjidictionarynumbers.csv
+Entries in csv: 10
+Entries found: 5
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjidictionarynumbers.csv
+Entries in csv: 10
+Entries found: 5
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjicodes.csv
+Entries in csv: 10
+Entries found: 5
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjicodes.csv
+Entries in csv: 10
+Entries found: 5
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjicodes.csv
+Entries in csv: 10
+Entries found: 5
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjicodes.csv
+Entries in csv: 10
+Entries found: 5
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjicodes.csv
+Entries in csv: 8
+Entries found: 5
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjibushu.csv
+Entries in csv: 2
+Entries found: 1
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjibushu.csv
+Entries in csv: 2
+Entries found: 1
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjibushu.csv
+Entries in csv: 2
+Entries found: 1
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjibushu.csv
+Entries in csv: 2
+Entries found: 1
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjikousei.csv
+Entries in csv: 4
+Entries found: 2
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjikousei.csv
+Entries in csv: 4
+Entries found: 2
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjikousei.csv
+Entries in csv: 4
+Entries found: 2
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjikousei.csv
+Entries in csv: 4
+Entries found: 2
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𠂛 found in: data/kanjikousei.csv
+Entries in csv: 4
+Entries found: 2
+ERROR IN Run number: 28233, URL: https://kanji.jitenon.jp/kanjiy/28233.html
+Error in 𡌳 found in: data/kanjivariant.csv
+Entries in csv: 8
+Entries found: 4
+ERROR IN Run number: 28235, URL: https://kanji.jitenon.jp/kanjiy/28235.html
+Error in 𡌳 found in: data/kanjivariant.csv
+Entries in csv: 8
+Entries found: 4
+ERROR IN Run number: 28235, URL: https://kanji.jitenon.jp/kanjiy/28235.html

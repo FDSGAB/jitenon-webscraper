@@ -14,9 +14,9 @@ class Setup():
             FileManager().create_log_txt()
             self.save_counter_state(counter=1)
         self.counter = self.load_counter_state()
-        if self.counter >= len(self.full_links_list):
+        """ if self.counter >= len(self.full_links_list):
             self.save_counter_state(counter=1)
-            self.counter = self.load_counter_state()
+            self.counter = self.load_counter_state() """
         self.number_of_runs = int(input(bcolors.WARNING + "Insert the number of runs to be made (insert 0 to run until the end): " + bcolors.ENDC))
         try:
             if self.counter + self.number_of_runs <= len(self.full_links_list):
@@ -43,6 +43,7 @@ class Setup():
             try:
                 counter_state = open(file='bin/counter.txt', encoding= 'UTF-8', mode='w')
                 counter_state.write(str(counter))
+                counter_state.close()
                 break
             except PermissionError: 
                 print(bcolors.WARNING + "PERMISSION ERROR OCURRED!!!!" + bcolors.ENDC)
