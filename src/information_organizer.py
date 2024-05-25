@@ -28,7 +28,16 @@ class InformationOrganizer():
         self.variant_forms_list =list()
         self.bunrui_list = list()
         self.shubetsu_list = list()
+        self.chimei_list = list()
+        self.word_list = list()
         self.names_list = list()
+        self.last_names_list = list()
+        self.contained_in_list = list()
+        self.addable_parts_list = list()
+        self.jouyou_list = list()
+        self.nandoku_list = list()
+        self.yoji_list = list()
+        self.kotozawa_list = list()
         self.general_information_list = [
                                             'NULL', #'漢字',                                                                
                                             'NULL', #'画数',                                
@@ -109,8 +118,43 @@ class InformationOrganizer():
         elif subject == '名前':
             name_contents = content.split("◦")
             self.names_list.append([self.kanji, name_contents[1], name_contents[0], name_contents[2]])
+        elif subject == '名字':
+            last_name_contents = content.split("◦")
+            self.last_names_list.append([self.kanji, last_name_contents[0], last_name_contents[1]])
+        elif subject == '含む漢字':
+            self.contained_in_list.append([self.kanji, content])
+        elif subject == '絞り込み':
+            self.addable_parts_list.append([self.kanji, content])
+        elif subject == '難読':
+            reading_content = self.verify_extra_code_content(content)
+            if self.start == -1:
+                self.nandoku_list.append([self.kanji, content, reading_content])
+            else:
+                self.nandoku_list.append([self.kanji, content[:self.start], reading_content])
+        elif subject == '常用漢字表付表の語':
+            reading_content = self.verify_extra_code_content(content)
+            if self.start == -1:
+                self.jouyou_list.append([self.kanji, content, reading_content])
+            else:
+                self.jouyou_list.append([self.kanji, content[:self.start], reading_content])
+        elif subject in ['市区町村', '町域名']:
+            chimei_content = content.split("◦")
+            self.chimei_list.append([self.kanji, subject, chimei_content[0], chimei_content[1], chimei_content[2]])
+        elif subject == '言葉':
+            word_content = content.split("◦")
+            self.word_list.append([self.kanji, word_content[0], word_content[1], word_content[2]])
+        elif subject == '四字熟語':
+            yoji_content = content.split("◦")
+            #yoji_content[2] = " ".join(" ".join(yoji_content[2].split('\n')).split('\r'))
+            self.yoji_list.append([self.kanji, yoji_content[0], yoji_content[1], yoji_content[2]])
+        elif subject == 'ことわざ':
+            kotozawa_content = content.split("◦")
+            #kotozawa_content[2] = " ".join(" ".join(kotozawa_content[2].split('\n')).split('\r'))
+            self.kotozawa_list.append([self.kanji, kotozawa_content[0], kotozawa_content[1], kotozawa_content[2]])
+        elif subject == '読み':
+            self.meanings_list.append[self.kanji, '無',  content, 'NULL', 'NULL', 'NULL']()
         else: print("SUBJECT " + subject + " NOT ACCOUNTED FOR!!!!!!!!!!")
-
+    
 
     def kakusuu_parts_discriminator(self, content : str):
         self.opening_index = -1

@@ -14,9 +14,18 @@ class FileManager():
                             'data/kanjicodes.csv' : ['漢字', '文字コード', 'コード', 'その他'],
                             'data/kanjidictionarynumbers.csv' : ['漢字', '辞典', '検字番号'],
                             'data/kanjibushu.csv' : ['漢字', '部首', '部首の読み方'],
-                            'data/kanjibunrui.csv' :['漢字', '分類'],
+                            'data/kanjibunrui.csv' : ['漢字', '分類'],
                             'data/kanjishubetsu.csv' :['漢字', '種別'],
-                            'data/namae.csv' :['漢字', '名前', '性別', '読み方']
+                            'data/namae.csv' : ['漢字', '名前', '性別', '読み方'],
+                            'data/myouji.csv' : ['漢字', '名字', '読み方'],
+                            'data/containedin.csv' : ['漢字', '含む漢字'],
+                            'data/addableparts.csv' : ['漢字', '絞り込み'],
+                            'data/nandoku.csv' : ['漢字', '言葉', '難読'],
+                            'data/jouyou.csv' : ['漢字', '言葉', '常用漢字表付表の語'],
+                            'data/chimei.csv' : ['漢字', '種類', '地名', '地域', '読み方'],
+                            'data/kotoba.csv' : ['漢字', '言葉', '読み方', '意味'],
+                            'data/yoji.csv' : ['漢字', '四字熟語', '読み方', '意味'],
+                            'data/kotozawa.csv' : ['漢字', 'ことわざ', '読み方', '意味']
                         }
 
     def create_csv_file(self, file_name : str, firstrow : list):

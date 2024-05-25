@@ -83,4 +83,49 @@ class EntryController():
         if name_control[0] == 1:
             self.delete_previous_written_entries(self.controls_list)
             return True
+        last_name_control = self.write_kanji_info_list(data.kanji, 'data/myouji.csv', data.last_names_list)
+        self.controls_list.append(['data/myouji.csv', last_name_control[1]])
+        if last_name_control[0] == 1:
+            self.delete_previous_written_entries(self.controls_list)
+            return True
+        contained_in_control = self.write_kanji_info_list(data.kanji, 'data/containedin.csv', data.contained_in_list)
+        self.controls_list.append(['data/containedin.csv', contained_in_control[1]])
+        if contained_in_control[0] == 1:
+            self.delete_previous_written_entries(self.controls_list)
+            return True
+        addable_control = self.write_kanji_info_list(data.kanji, 'data/addableparts.csv', data.addable_parts_list)
+        self.controls_list.append(['data/addableparts.csv', addable_control[1]])
+        if addable_control[0] == 1:
+            self.delete_previous_written_entries(self.controls_list)
+            return True
+        nandoku_control = self.write_kanji_info_list(data.kanji, 'data/nandoku.csv', data.nandoku_list)
+        self.controls_list.append(['data/nandoku.csv', nandoku_control[1]])
+        if nandoku_control[0] == 1:
+            self.delete_previous_written_entries(self.controls_list)
+            return True
+        jouyou_control = self.write_kanji_info_list(data.kanji, 'data/jouyou.csv', data.jouyou_list)
+        self.controls_list.append(['data/jouyou.csv', jouyou_control[1]])
+        if jouyou_control[0] == 1:
+            self.delete_previous_written_entries(self.controls_list)
+            return True
+        chimei_control = self.write_kanji_info_list(data.kanji, 'data/chimei.csv', data.chimei_list)
+        self.controls_list.append(['data/chimei.csv', chimei_control[1]])
+        if chimei_control[0] == 1:
+            self.delete_previous_written_entries(self.controls_list)
+            return True
+        word_control = self.write_kanji_info_list(data.kanji, 'data/kotoba.csv', data.word_list)
+        self.controls_list.append(['data/kotoba.csv', word_control[1]])
+        if word_control[0] == 1:
+            self.delete_previous_written_entries(self.controls_list)
+            return True
+        yoji_control = self.write_kanji_info_list(data.kanji, 'data/yoji.csv', data.yoji_list)
+        self.controls_list.append(['data/yoji.csv', yoji_control[1]])
+        if yoji_control[0] == 1:
+            self.delete_previous_written_entries(self.controls_list)
+            return True
+        kotozawa_control = self.write_kanji_info_list(data.kanji, 'data/kotozawa.csv', data.kotozawa_list)
+        self.controls_list.append(['data/kotozawa.csv', kotozawa_control[1]])
+        if kotozawa_control[0] == 1:
+            self.delete_previous_written_entries(self.controls_list)
+            return True
         return False

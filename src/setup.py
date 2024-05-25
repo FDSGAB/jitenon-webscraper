@@ -1,6 +1,7 @@
 from src.file_manager import FileManager
 from src.kanji_links_writer import KanjiLinksWriter
 from src.style.bcolors import bcolors
+#import sys
 
 class Setup():
 
