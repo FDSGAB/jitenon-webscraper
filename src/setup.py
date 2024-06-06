@@ -10,7 +10,7 @@ class Setup():
     def __init__(self) -> None:
         KanjiLinksWriter()
         self.full_links_list = self.read_links_txt()
-        if input(bcolors.WARNING + "Run from saved state files? Y/N: " + bcolors.ENDC) == 'N':
+        if input(bcolors.WARNING + "Run from saved state files? Y/N: " + bcolors.ENDC) == 'NOWAYYDoDehgyukkhoj':
             FileManager().create_all_csv_files()
             FileManager().create_log_txt()
             self.save_counter_state(counter=1)

@@ -152,7 +152,7 @@ class InformationOrganizer():
             #kotozawa_content[2] = " ".join(" ".join(kotozawa_content[2].split('\n')).split('\r'))
             self.kotozawa_list.append([self.kanji, kotozawa_content[0], kotozawa_content[1], kotozawa_content[2]])
         elif subject == '読み':
-            self.meanings_list.append[self.kanji, '無',  content, 'NULL', 'NULL', 'NULL']()
+            self.readings_list.append([self.kanji, '無',  content, 'NULL', 'NULL', 'NULL'])
         else: print("SUBJECT " + subject + " NOT ACCOUNTED FOR!!!!!!!!!!")
     
 
